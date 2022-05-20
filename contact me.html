@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Contact Me
+    </title>
+    <link rel = "icon" href="logo.jpg" type="image/x-icon">
+    <style>
+       nav{
+    float: center;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(129, 170, 250),rgb(255, 139, 216),rgb(165, 37, 165));
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 3px;
+    position: relative;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+nav a::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    background-color:#002BDC;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background-color: #ff7cf6;
+  color: white;
+}
+    article{
+        text-align: center;
+        padding: 100px;
+        border: 3px solid black;
+        margin: 100px;
+        background-image: linear-gradient(to bottom right,blue, rgb(255, 56, 202),purple)
+
+    }
+
+    body{
+        background-image: linear-gradient(to right, rgb(255, 90, 90), #fbbd49, rgb(255, 255, 116), rgb(82, 255, 82), rgb(100, 162, 255), rgb(182, 79, 255), violet);
+    }
+
+   
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my music.html">My Music</a></li>
+            
+            <LI><a href="contact me.html">Contact me </a></LI>
+        </ul>
+    </nav>
+
+    <article >
+        Contact:<br>
+        Email-martinsarosh@gmail.com<br>
+        
+            <button class="btn"><a href="">Google Form for contacting me</a></button>
+        
+    
+
+    </article>
+</body>
+</html>
