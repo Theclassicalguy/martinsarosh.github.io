@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        My Music
+    </title>
+    <link rel = "icon" href="logo.jpg" type="image/x-icon">
+    <style>
+       nav{
+    float: center;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(129, 170, 250),rgb(255, 139, 216),rgb(165, 37, 165));
+       }
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 3px;
+    position: relative;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+nav a::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    background-color:#002BDC;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+ol{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#subcribe {
+    height: 50px;
+    width: 15%;
+    margin-left: 45%;
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color:white;
+    transition: background 1s, color 1s;
+    -webkit-transition: background 1s, color 1s;
+    text-align: center;
+}
+
+#subcribe:hover {
+    background: rgb(255, 0, 0);
+    color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 15%;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(11, 92, 255),rgb(255, 48, 186),rgb(191, 0, 255));
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.li{
+    font-size: 50px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my music.html">My Music</a></li>
+            
+            <LI><a href="contact me.html">Contact me </a></LI>
+        </ul>
+    </nav>
+    <div id="subcribe"><a href="https://www.youtube.com/channel/UCe4Xuzh91CI_0WUWpx9ywSw">Subcribe to Martin Sarosh</a></div> 
+    <article>
+        Here is some of the music I've created.
+    </article>
+    <ol class="center">
+        <li class="li">
+            War<br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z23xyyZrxzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+        </li>
+        <li class="li">
+           Electronic River<br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q7rTQKwOOhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+    </ol>
+    
+</body>
+</html>
